@@ -17,7 +17,7 @@ export default function App() {
         {!appLoading && (
           <View style={styles.container}>
             <Text>Test</Text>
-            <Button data-test="button">Button</Button>
+            <Button>Button</Button>
             <StatusBar style="auto" />
           </View>
         )}
